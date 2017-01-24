@@ -1,0 +1,149 @@
+/* main css */
+body {
+    margin: 0;
+    padding: 0;    
+}
+
+* {
+    font-family: Calibri, Verdana;
+    font-weight: bold;
+}
+
+#main {
+    margin: auto;
+    width: 1024px;   
+    height: 95%;
+    box-shadow: 5px 0 15px -4px #888, -5px 0 15px -4px #888;
+}   
+
+#content {
+    min-height: 450px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.progress {
+    display: none;
+    width: 500px;
+    margin: 200px auto 245px;    
+}
+/* end main css */
+
+/* header css */
+#header {
+    width: 99%;
+    height: 165px;
+    margin: auto;
+    background-color: #FFF;    
+    font-family: Calibri, Verdana;
+    margin-top: 5px;    
+}
+
+.logo-holder {
+    float: left;
+    margin-left: 30px;
+}
+
+#logout {
+    float: right;
+    margin-right: 10px;
+    cursor: hand;
+}
+
+#logout:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* end haeder css */
+
+/* log css */
+.btn-time {
+    width: 100px;
+    margin: 30px 15px 0px;
+    text-transform: uppercase;
+}
+
+.btn-group-lg .btn {
+    font-size: 25px;
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);    
+}
+
+#time-container {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#time-container .break-options {
+    left: 75px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.modal-dialog {
+    width: 380px;
+}
+
+.modal-body h4 {
+    font-style: italic;
+}
+/* end log css */
+
+/* timesheet css */
+#timesheet-container #selection {
+    width: 600px;
+    margin: auto;
+}
+
+#timesheet-container .tb-timesheet {
+    line-height: normal;
+}
+
+#timesheet_table {
+    width: 100%;    
+}
+
+#time_table {
+    width: 900px;
+    height: 350px;
+    overflow: auto;    
+    margin: auto;
+    margin-top: 25px;
+}
+
+#timesheet_table td, #timesheet_table th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#timesheet_table th {
+    width: 10%;
+}
+
+#timesheet_table .weekend {
+    background-color: #d3d3d3;
+}
+/* end timesheet */
+
+/* footer css */
+#footer {
+    font-family: Calibri, Verdana;
+    font-size: 11px;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+/* end footer css */
+
+#timesheet_table  input {
+	width: 95px;
+	background-color: transparent;
+}

@@ -1,0 +1,25 @@
+/* login css */
+#login-container {
+    width: 250px;
+    margin: 150px auto;
+}
+
+.form-control {
+    margin: 15px 0;    
+}
+
+#btn-submit {
+    width: 100px;    
+}
+
+.logo-holder {
+    width: 100px;
+    height: 100px;
+    margin: auto;    
+}
+
+#error-msg {
+    display: none;
+    margin-top: 15px;
+}
+
